@@ -1,0 +1,137 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+nav {
+  background-color: #4caf50;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nav h1 {
+  font-size: 1.5rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav input[type="text"] {
+  padding: 0.4rem;
+  border-radius: 5px;
+  border: none;
+}
+
+nav button {
+  padding: 0.5rem 1rem;
+  background-color: white;
+  color: #4caf50;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+nav button:hover {
+  background-color: #e8e8e8;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.analysisForm,
+.searchCondition {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  min-width: 300px;
+  max-width: 600px;
+}
+
+.analysisForm h1,
+.analysisForm h2 {
+  margin-bottom: 1rem;
+  color: #4caf50;
+}
+
+.analysisForm div {
+  margin-bottom: 1rem;
+}
+
+.analysisForm label {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-weight: 500;
+}
+
+.analysisForm input[type="text"],
+.analysisForm input[type="number"],
+.analysisForm select {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.analysisForm input[type="radio"] {
+  margin-left: 1rem;
+  margin-right: 0.3rem;
+}
+
+.analysisForm button {
+  background-color: #4caf50;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.analysisForm button:hover {
+  background-color: #45a049;
+}
+
+#report {
+  margin-top: 1rem;
+  background-color: #f0f0f0;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+#result {
+  padding: 1rem;
+  border-radius: 5px;
+  background-color: #eef7ee;
+  border: 1px solid #cde0cd;
+}
